@@ -1,2 +1,3 @@
-A = input()
-print(int(A) - 543)
+import sys
+A = int(sys.stdin.readline())
+print(A - 543)
